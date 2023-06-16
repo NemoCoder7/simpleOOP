@@ -10,7 +10,7 @@ class ChessPro:
             column_color = 'black'
         else:
             column_color = 'white'
-
+ 
         if (number % 2 == 0 and column_color == 'black') or (number % 2 != 0 and column_color == 'white'):
             cell_color = 'white'
         else:
